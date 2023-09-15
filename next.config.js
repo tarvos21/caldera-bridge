@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // output to static files
+  // output: 'export',
+  // distDir: 'build',
+
   eslint: {
     dirs: ['src'],
   },
